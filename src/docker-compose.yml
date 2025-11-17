@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    container_name: tg_bitrix_bot
+    restart: always
+    env_file: .env
